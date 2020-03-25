@@ -18,4 +18,5 @@ box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.05);
 }
 .sidebar .nav li .dropdown-menu a, .sidebar .nav li a{
   margin: 10px 0;
+  overflow: hidden;
 }
