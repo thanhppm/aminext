@@ -1,0 +1,21 @@
+p, a{
+  font-weight: 500;
+}
+.sidebar-wrapper ul li a {
+  padding: 6px 10px;
+}
+.sidebar-wrapper ul > li a {
+  background: rgba(180, 202, 223, 0.3);
+  border-radius: 4px;
+}
+.main-panel{
+  background-color: #EFF7FF;
+}
+
+.sidebar{
+  background: #FFFFFF;
+box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.05);
+}
+.sidebar .nav li .dropdown-menu a, .sidebar .nav li a{
+  margin: 10px 0;
+}
