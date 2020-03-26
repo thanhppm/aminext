@@ -165,3 +165,57 @@ thead tr {
 .btn__upload-image img {
   max-width: 100%;
 }
+.upload__content {
+  background-color: #fff;
+  border: 2px solid #c7e2f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  border-radius: 5px;
+}
+.upload__title {
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+  text-align: center;
+  color: #93a5b6;
+  margin-top: 2.4rem;
+}
+.upload__subtitle {
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+  text-align: center;
+  color: var(--primary-color);
+  margin: 4rem 0;
+}
+.upload__icon {
+  display: block;
+  width: 10rem;
+  height: 7.5rem;
+}
+.upload__icon img {
+  max-width: 100%;
+}
+.upload__description {
+  border: 1px solid #f3f9ff;
+  background-color: #f3f9ff;
+  width: 44rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  margin-top: 10rem;
+  padding-top: 2.5rem;
+  padding-bottom: 3.5rem;
+}
+.modified {
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
