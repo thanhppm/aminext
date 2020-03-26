@@ -6,6 +6,7 @@ html {
   --black: #222;
   --secondary-color: #46c0d2;
 }
+
 p,
 a {
   font-weight: 500;
@@ -22,6 +23,11 @@ a {
 }
 .main-panel {
   background-color: #eff7ff;
+}
+
+.btn:hover {
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
 }
 
 .sidebar {
@@ -263,4 +269,40 @@ thead tr {
 }
 .btn__aminate-image--custom {
   width: 1.5rem;
+}
+.report-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3.2rem;
+}
+.report__button {
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+}
+.report__table {
+  max-height: 61rem;
+}
+.content-report {
+  margin-top: 70px;
+  padding: 30px 15px;
+  min-height: calc(100vh - 123px);
+}
+.record-row {
+  border: 1px solid #d9e7f4;
+}
+.record-report {
+  border: 1px solid #f3f9ff;
+}
+.record-report:last-child {
+  border-bottom: none;
+}
+.record-row:nth-child(2n) {
+  background-color: #f3f9ff !important;
+}
+.footer-button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
