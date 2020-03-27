@@ -28,6 +28,15 @@ a {
   background-color: #eff7ff;
   overflow-x: hidden;
 }
+.dropdown-item {
+  font-size: 1.4rem !important;
+  line-height: 2rem !important;
+  color: var(--primary-color);
+}
+.dropdown-item:hover {
+  color: white;
+  background-color: var(--primary-color) !important;
+}
 
 .btn:hover {
   background-color: var(--primary-color) !important;
@@ -364,4 +373,47 @@ thead tr {
 .btn-custom--large img {
   width: 2.6rem;
   height: 2.6rem;
+}
+
+/*2020-03-27 20:50:43*/
+.sidebar__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.navbar-minimize button {
+  top: 50%;
+  transform: translatey(-50%);
+}
+
+body.sidebar-mini .sidebar .nav li a {
+  background: none;
+}
+
+body.sidebar-mini .sidebar:hover ul > li a {
+  background: rgba(180, 202, 223, 0.3);
+}
+
+@media (min-width: 992px) {
+  .sidebar-mini .sidebar:hover .sidebar-wrapper {
+    width: auto;
+  }
+
+  .sidebar-mini .sidebar-wrapper {
+    width: initial !important;
+  }
+
+  .sidebar:hover + div {
+    width: calc(100% - 300px);
+  }
+
+  .sidebar-mini .sidebar .nav i {
+    transform: translateX(-5px);
+  }
+}
+.sidebar-mini .sidebar:hover .logo {
+  display: block;
+}
+.sidebar-mini .logo {
+  display: none;
 }
