@@ -183,17 +183,17 @@ color:white;
 }
 tr.keepbackground td, tr.changeBG td{
 	border-right: 1px solid #D9E7F4;
-	height:60px;
+	
 }
 table.table{
 	border: 1px solid #7C97B1;
 	text-overflow:ellipsis;
 	 overflow: scroll;
 	width: 90%;
-	height:720px!important;
+	height:90%!important;
 }
 table{
-	overflow:scroll;
+	overflow-y:scroll;
 }
 .circle2{
 	height:120px;
@@ -203,8 +203,12 @@ table{
 	color: #46C0D2;
 	background-color: #46C0D2;
 }
-.circle2 :hover {
+.circle2:hover {
 background-color: #086799;
+
+}
+.circle2:forcus{
+	background-color: #086799;
 }
 button.x{
 	width:125px;
